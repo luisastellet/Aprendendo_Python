@@ -1,5 +1,5 @@
 valor = int(input('Qual o valor da compra? '))
-print('Digite o número correspondente à forma de pagamento desejada: \n1 - À vista no dinheiro ou cheque \n2 - À vista no cartão \n3 - Em até 2 vezes no cartão \n4 - 3 vezes ou mais no cartão' )
+print('''Digite o número correspondente à forma de pagamento desejada: \n1 - À vista no dinheiro ou cheque \n2 - À vista no cartão \n3 - Em até 2 vezes no cartão \n4 - 3 vezes ou mais no cartão''' )
 pag = int(input('Digite o número: '))
 
 if pag == 1:

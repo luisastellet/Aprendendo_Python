@@ -1,4 +1,4 @@
-import random
+import random 
 nome = input('Qual o seu nome? ')
 j1 = input('Você quer pedra, papel ou tesoura? ')
 opçoes = ['papel', 'pedra', 'tesoura']
