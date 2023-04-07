@@ -1,27 +1,10 @@
-n = int(input('Digite um valor e encontre o seu fatorial: '))
-for c in range(n ,0, -1):
-    print('{}! = {}x' .format(n, c))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   ''' 10! = 10x9x8x7x6x5x4x3x2x1  '''
+n = int(input('Digite um número para calcular seu fatorial: '))
+c = n
+f = 1
+print('Calculando {}! = '.format(n), end='')
+while c > 0:
+    print('{}' .format(c), end='')
+    print(' x ' if c > 1 else ' = ', end='')
+    f = f * c
+    c -= 1
+print('{}' .format(f))

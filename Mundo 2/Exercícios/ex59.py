@@ -3,7 +3,7 @@ n1 = int(input('Digite um valor: '))
 n2 = int(input('Digite um valor: '))
 
 escolha = 0
-while escolha != 5 and escolha <= 4:
+while escolha != 5:
     sleep(1.5)
     escolha = int(input('''
     [1] - Somar
@@ -26,6 +26,9 @@ while escolha != 5 and escolha <= 4:
     elif escolha == 4:
         n1 = int(input('Digite um valor: '))
         n2 = int(input('Digite um valor: '))
-
+    else:
+        print('=-=' * 10)
+        print('Opção inválida. Tente novamente')
+        print('=-=' * 10)
     
 
